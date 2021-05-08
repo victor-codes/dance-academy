@@ -1,0 +1,47 @@
+header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    width: 100%;
+    max-width: 1140px;
+}
+.logo {
+    height: fit-content;
+}
+
+.logo>h1 {
+    margin: 0;
+    height: 21.24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    margin: 0;
+}
+
+li {
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0125em;
+}
+
+li>a {
+    color: #000000;
+    text-decoration: none;
+}

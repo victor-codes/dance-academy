@@ -1,0 +1,148 @@
+.hero_text {
+    width: 100%;
+    max-width: 1040px;
+}
+
+.hug_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hero {
+    width: 100%;
+    max-width: 1040px;
+    margin: 113px auto 0 !important;
+}
+
+.hero_big {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 750;
+    font-size: 98px;
+    line-height: 120px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.left_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: fit-content;
+
+}
+
+.right_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+    padding: 0px;
+    gap: 12px;
+}
+
+.hero_small {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.015em;
+    text-align: right;
+    color: #000;
+}
+
+.right_background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 1050px;
+    z-index: -10;
+    background-color: #ffe010;
+}
+
+.left_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 1050px;
+    z-index: -1;
+    background-color: #f9e874;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 194px auto 0;
+}
+
+.gap {
+    display: flex;
+    gap: 48px;
+}
+
+.more_info {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    max-width: 1137px;
+    height: 271px;
+    margin: 96px auto 0;
+}
+
+.left_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 35px;
+    height: 271px;
+    left: 0px;
+    gap: 15px;
+    top: 0px;
+
+}
+
+.svg {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.left_info_text {
+    flex-direction: column;
+    width: fit-content;
+    transform: rotate(-90deg);
+    height: 156px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.left_info_text>span:nth-child(1) {
+    display: block;
+    width: 156px;
+}
+
+.center_image {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
