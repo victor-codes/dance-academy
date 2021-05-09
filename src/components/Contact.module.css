@@ -1,0 +1,32 @@
+.contact {
+    padding: 64px 0;
+    background-color: #F9E874;
+    max-height: 514px !important;
+}
+
+.heading_2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.004em;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 44px;
+    width: 1004px;
+    height: 166px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

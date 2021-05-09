@@ -1,0 +1,41 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* width: fit-content; */
+    letter-spacing: 0.014em;
+    margin: 0 0 60px 0;
+}
+
+.about_text {
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.004em;
+    max-width: 510px;
+    margin: 0 0 58px 0;
+}
+
+.about>p {
+    width: 516px;
+}
+
+.img {
+    width: 50%;
+    height: 488px;
+    object-fit: cover;
+}
+
+.column_inverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.center {
+    margin: auto;
+}
