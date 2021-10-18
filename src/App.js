@@ -12,21 +12,14 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Parallax pages={2.89} config={config.wobbly}>
-        <ParallaxLayer offset={0}
-        speed={0.5}
-        >
+      <Parallax pages={2.89} config={config.wobbly.tension}>
+        <ParallaxLayer offset={0} speed={0.5}>
           <Nav />
           <Main />
         </ParallaxLayer>
-        {/* <ParallaxLayer> */}
         <About />
-        {/* </ParallaxLayer>
-        <ParallaxLayer> */}
         <Contact />
-        {/* </ParallaxLayer> */}
         <Footer />
-        {/* </Parallax> */}
       </Parallax>
     </div>
   );

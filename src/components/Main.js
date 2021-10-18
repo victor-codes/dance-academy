@@ -11,7 +11,7 @@ export default function Main() {
     {
       from: { x: width, opacity: 0 },
     },
-    []
+    []x
   );
 
   useEffect(() => {
